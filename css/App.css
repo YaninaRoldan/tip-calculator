@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .content {
+  width: 1440px;
+  height: 1024px;
+  background: url(wfczmy0nrltpwqyaovg6.jpg) top center no-repeat;
+  font-family: "Space Mono", monospace;
+}
+body .content .splitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body .content .splitter h1 {
+  width: 120px;
+  font-size: 25px;
+  color: hsl(183, 100%, 15%);
+  letter-spacing: 0.4em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 153px;
+}
+body .content .calculator {
+  background-color: rgba(200, 250, 97, 0.4);
+  width: 920px;
+  height: 480px;
+  border-radius: 17px;
+  margin-top: 60px;
+  margin-left: 260px;
+}
+body .content .calculator h4 {
+  color: hsl(183, 100%, 15%);
+  font-size: 15px;
+}
+body .content .calculator input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  font-size: 24px;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 6px;
+}
+body .content .calculator .btns button {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+}
+body .content .calculator .result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+body .content .calculator .result-container .result {
+  background-color: hsl(183, 100%, 15%);
+  width: 400px;
+  height: 400px;
+  border-radius: 17px;
+}
+body .content .calculator .result-container h5 {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+body .content .calculator .result-container p {
+  color: hsl(189, 41%, 97%);
+  font-size: 12px;
+  color: hsl(184, 14%, 56%);
+}
+body .content .calculator .result-container .btns button {
+  width: 350px;
+  height: 40px;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 6px;
+  color: hsl(184, 14%, 56%);
+}/*# sourceMappingURL=App.css.map */
